@@ -3,33 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impressum</title>
+    <title>Impressum | Töbi's</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        h1 { color: #333; }
-        .container { max-width: 600px; margin: auto; }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 150px;
+        }
+        .info {
+            padding: 10px 20px;
+            line-height: 1.8;
+        }
+        .info p {
+            margin: 10px 0;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="logo.png" alt="Töbi's Logo" class="logo"> 
         <h1>Impressum</h1>
-        <p><strong>Angaben gemäß § 5 TMG:</strong></p>
-        <p>Toebi's<br>
-        Tobias Kant<br>
-        Ufhabiweg 8<br>
-        Deutschland</p>
+        <div class="info">
+            <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+            <p>Töbi's<br>
+            Tobias Kant<br>
+            Ufhabiweg 8<br>
+            Deutschland</p>
 
-        <p><strong>Kontakt:</strong><br>
-        Telefon: +49 1556 3242441<br>
-        E-Mail: kontakt@toebis.de</p>
+            <p><strong>Kontakt:</strong><br>
+            Telefon: +49 1556 3242441<br>
+            E-Mail: <a href="mailto:kontakt@toebis.de">kontakt@toebis.de</a></p>
 
-        <p><strong>Umsatzsteuer-ID:</strong><br>
-        DE343439884</p>
+            <p><strong>Umsatzsteuer-ID:</strong><br>
+            DE343439884</p>
 
-        <p><strong>Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV:</strong><br>
-        Tobias Kant, Ufhabiweg 8, Deutschland</p>
-
-        <p><small>Letzte Aktualisierung: Februar 2025</small></p>
+            <p><strong>Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV:</strong><br>
+            Tobias Kant, Ufhabiweg 8, Deutschland</p>
+        </div>
+        <div class="footer">
+            <p>Letzte Aktualisierung: Februar 2025</p>
+        </div>
     </div>
 </body>
 </html>
