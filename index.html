@@ -10,42 +10,64 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
             color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .container {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         h1 {
             text-align: center;
-            color: #222;
+            color: #0056b3;
         }
         .logo {
             display: block;
             margin: 0 auto 20px;
-            max-width: 150px;
+            max-width: 120px;
+            border-radius: 10px;
         }
         .info {
             padding: 10px 20px;
             line-height: 1.8;
+            font-size: 16px;
         }
         .info p {
-            margin: 10px 0;
+            margin: 12px 0;
         }
         .footer {
             text-align: center;
             font-size: 0.9em;
-            color: #777;
+            color: #555;
             margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <div class="header">Töbi's Impressum</div>
     <div class="container">
         <img src="logo.png" alt="Töbi's Logo" class="logo">  
         <h1>Impressum</h1>
